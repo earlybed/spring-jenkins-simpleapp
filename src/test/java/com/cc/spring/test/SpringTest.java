@@ -13,7 +13,7 @@ public class SpringTest {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserService userService = ac.getBean("userServiceImpl", UserService.class);
         System.out.println(userService);
-
+        error
 
     }
 }
